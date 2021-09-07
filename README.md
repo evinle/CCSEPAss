@@ -29,7 +29,7 @@ Gian Quiros   | script + presentation slides
 
 Muhadib Hanafi | script + presentation slides
 
-Denise Abalos | demo program patching + prevention
+Denise Abalos | demo program patching + prevention + recording editing
 
 Tuan Le | demo program exploitation
 
