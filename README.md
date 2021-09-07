@@ -3,7 +3,7 @@
 The program is a simple hypothetical login system for some piece of software, with trivial length checking of buffer size that is off by one. We don't take account into the password since it would only complicate the stack making it unecessarily more complex, without altering the logic of the exploit.
 
 How to run the program:
-./biwan + [username]
+./biwan [username]
   
 Detection: the most reliable way to detect off by one errors is boundary testing, where test cases are built around the values that are less than 1, more than 1 or on the boundary.
   
