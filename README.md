@@ -21,12 +21,12 @@ Patch: patching is as trivial as adding or removing the "=" sign from the offend
 Member        | Role
 
 
-Gian Quiros   | introduction 
+Gian Quiros   | script + presentation slides
 
-Muhadib Hanafi | incidents
+Muhadib Hanafi | script + presentation slides
 
-Denise Abalos | patching + prevention
+Denise Abalos | demo program patching + prevention
 
-Tuan Le | exploitation
+Tuan Le | demo program exploitation
 
 
