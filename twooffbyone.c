@@ -1,6 +1,10 @@
 #include<stdio.h>
 #include<string.h>
 
+/*
+Code is a modified version of the exerpt found in the link below
+https://www.exploit-db.com/docs/english/28478-linux-off-by-one-vulnerabilities.pdf 
+*/
 
 void login(char *uname) {
     char username[500];
