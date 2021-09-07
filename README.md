@@ -6,8 +6,6 @@ Shell code was taken from: http://shell-storm.org/shellcode/
 
 # Please note that this was done on a 32-bit system
 
-The motif behind this is because doing it on a 64-bit system means figuring out ways to bypass null bytes that act as null pointers for strcpy, which makes the problem a lot more complex.
-
 # How to compile the program:
 make all
 
