@@ -2,6 +2,9 @@
 
 The program is a simple hypothetical login system for some piece of software, with trivial length checking of buffer size that is off by one. We don't take account into the password since it would only complicate the stack making it unecessarily more complex, without altering the logic of the exploit.
 
+How to compile the program:
+make all
+
 How to run the program:
 ./biwan [username]
   
