@@ -16,7 +16,8 @@ make all
 The most reliable way to detect off by one errors is boundary testing, where test cases are built around the values that are less than 1, more than 1 or on the boundary.
   
 # Exploit:
-Inputting an array of characters that are exactly 500 in size, that contains the following structure [nopsled (array of 0x90) - shell code (what we want the program to execute) - return addresses (array that points to somewhere in the nopsled so that it "slides" all the way down to the start of our shell code)].
+Inputting an array of characters that is exactly 500 in size, that contains the following structure [nopsled (array of 0x90) - shell code (what we want the target program to execute) - return addresses (array that points to somewhere in the nopsled so that it "slides" all the way down to the start of our shell code)].
+
   
 # Patch: 
 Patching is as trivial as adding or removing the "=" sign from the offending control structure. As the name implies, we are one off of 
