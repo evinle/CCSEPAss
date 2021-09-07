@@ -4,7 +4,7 @@ The program is a simple hypothetical login system for some piece of software, wi
 
 Shell code was taken from: http://shell-storm.org/shellcode/
 
-# Please note that this was done on a 32-bit system
+# This was done on a 32-bit system
 
 # How to compile the program:
 make all
